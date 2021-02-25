@@ -1,0 +1,146 @@
+body {
+    text-align: center;
+    background-color: #404040;
+    box-shadow: 2px 2px 2px 2px #333333;
+    width: fit-content;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 720px;
+}
+
+header {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+    height: 100%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    display: flex;
+}
+
+.main-body {
+    max-width: 500px;
+}
+
+#aboutLisa {
+    text-align: left;
+    display: flex;
+}
+
+#aboutLisa img {
+    height: 150px;
+    margin: auto 20px;
+    display: block;
+}
+
+#aboutLisa div {
+    padding: 0 10px;
+}
+
+#biography {
+    text-align: left;
+    display: flex;
+}
+
+#biography img {
+    height: 150px;
+    margin: auto 3px;
+    display: block;
+}
+
+#biography div {
+    padding: 0 10px;
+    max-width: 300px;
+}
+
+#music {
+    text-align: left;
+}
+
+#music h2 {
+    padding: 0 10px;
+}
+
+#music div {
+    text-align: left;
+    display: flex;
+    padding: 0 10px;
+}
+
+#music div img {
+    width: 180px;
+    padding: 10px 0;
+}
+
+#music div p {
+    padding: 0 10px;
+}
+
+.sidebar {
+    margin: 10px;
+}
+
+.facts {
+    background-color: lightgrey;
+    padding: 5px 0;
+}
+
+.facts h2 {
+    margin: 3px;
+    font-style: italic;
+}
+
+.facts div p {
+    padding: 0 3px;
+    color: steelblue;
+}
+
+.sidebar img {
+    max-width: 220px;
+    margin-top: 10px;
+    border: 2px solid tan; 
+}
+
+footer {
+    max-width: 720px;
+    margin: 0 auto;
+    background-image: url("./images/footer.png");
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+    height: 100%;
+}
+
+footer ul li a {
+    color: #333333;
+    text-decoration: none;
+}
