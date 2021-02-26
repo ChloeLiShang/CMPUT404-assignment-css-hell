@@ -18,7 +18,7 @@ License/Copyright
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
-
+Contributor: Li Shang
 Code is licensed under the Apache 2.0 license.
 
 Part 1
@@ -39,4 +39,5 @@ In book Frankenstein (2.html):
 References
 ==========
 gradient color: https://cssgradient.io/blog/css-gradient-text/
+
 Lisa Simpson images and texts: https://simpsonswiki.com/wiki/Lisa_Simpson
