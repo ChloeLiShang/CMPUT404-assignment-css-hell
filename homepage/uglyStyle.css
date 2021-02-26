@@ -1,0 +1,159 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 720px;
+}
+
+header {
+    background-image: url("./images/bubble-textures-and-backgrounds-cover.png");
+}
+
+header h2 {
+    padding: 0 10px;
+    background-color: gold;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 500px;
+}
+
+header h1 {
+    font-size: 72px;
+    margin: 10px auto;
+    /* https://cssgradient.io/blog/css-gradient-text/ */
+    background: -webkit-linear-gradient(rgb(245, 222, 120), rgb(231, 88, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+    height: 100%;
+    background-color:orange;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    display: flex;
+}
+
+.main-body {
+    max-width: 500px;
+}
+
+#aboutLisa {
+    text-align: left;
+    display: flex;
+}
+
+#aboutLisa img {
+    height: 150px;
+    margin: auto 20px;
+    display: block;
+}
+
+#aboutLisa div {
+    padding: 0 10px;
+    background-color: hotpink;
+}
+
+#biography {
+    text-align: left;
+    display: flex;
+}
+
+#biography img {
+    height: 150px;
+    margin: auto 3px;
+    display: block;
+}
+
+#biography div {
+    padding: 0 10px;
+    max-width: 300px;
+}
+
+#music {
+    text-align: left;
+}
+
+#music h2 {
+    padding: 0 10px;
+}
+
+#music div {
+    text-align: left;
+    display: flex;
+    padding: 0 10px;
+}
+
+#music div img {
+    width: 180px;
+    padding: 10px 0;
+}
+
+#music div p {
+    margin: 16px 10px;
+    padding: 0 10px;
+    background-color: hotpink;
+}
+
+.sidebar {
+    margin: 10px;
+    background-color: gold;
+}
+
+.facts {
+    padding: 5px 0;
+}
+
+.facts h2 {
+    margin: 3px;
+    font-style: italic;
+}
+
+.facts div p {
+    padding: 0 3px;
+    color: teal;
+}
+
+.sidebar img {
+    max-width: 220px;
+    margin-top: 10px;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: orange;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+    height: 100%;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
